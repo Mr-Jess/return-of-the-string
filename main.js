@@ -18,9 +18,8 @@ function oneCharacter(str) {
   return str[8];
 }
 
-function twoCharacters(str) {
-  const answer = str[2] + str[11];
-  return answer;
+function twoCharacters(str, index1, index2) {
+  return str[index1] + str[index2];
 }
 
 function initials(str) {
